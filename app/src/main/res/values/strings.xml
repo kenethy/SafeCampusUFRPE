@@ -15,6 +15,7 @@
     <string name="filtro">Filtro</string>
     <string name="tipo">Tipo</string>
     <string name="periodo">Período</string>
+    <string name="local">Local</string>
     <string name="pesquise_data">Pesquise por data</string>
     <string name="botao_cancelar">Cancelar</string>
     <string name="botao_ok">OK</string>
