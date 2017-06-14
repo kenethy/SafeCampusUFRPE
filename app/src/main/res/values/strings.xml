@@ -8,7 +8,7 @@
     <string name="ativar_botao_panico">Ativar botão de pânico</string>
     <string name="botao_off">Off</string>
     <string name="botao_on">On</string>
-    <string name="info">Informação</string>
+    <string name="info">Informação:</string>
     <string name="tipo_de_ocorrencia">Tipo de Ocorrência</string>
     <string name="botao_enviar">Enviar</string>
     <string name="relatorio_de_ocorrencia">Relatório de Ocorrência</string>
@@ -19,4 +19,6 @@
     <string name="pesquise_data">Pesquise por data</string>
     <string name="botao_cancelar">Cancelar</string>
     <string name="botao_ok">OK</string>
+    <string name="botao_foto">Inserir Imagem</string>
+    <string name="hint_informacao">Insira a sua informação</string>
 </resources>
