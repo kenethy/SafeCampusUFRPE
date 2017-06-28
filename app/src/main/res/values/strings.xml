@@ -5,7 +5,8 @@
     <string name="para_mim">Para mim</string>
     <string name="para_outro">Para outro</string>
     <string name="botao_avancar">Avançar</string>
-    <string name="ativar_botao_panico">Ativar botão de pânico</string>
+    <string name="ativar_panico">Ativar Pânico</string>
+    <string name="desativar_panico">Desativar Pânico</string>
     <string name="botao_off">Off</string>
     <string name="botao_on">On</string>
     <string name="info">Informação:</string>
@@ -17,7 +18,7 @@
     <string name="periodo">Período</string>
     <string name="local">Local</string>
     <string name="pesquise_data">Pesquise por data</string>
-    <string name="botao_cancelar">Cancelar</string>
+    <string name="botao_limpar">Limpar</string>
     <string name="botao_ok">OK</string>
     <string name="botao_foto">Inserir Imagem</string>
     <string name="hint_informacao">Insira a sua informação</string>

@@ -10,11 +10,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:text="@string/relatorio_de_ocorrencia"
-        android:textSize="33dp"/>
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,25 +39,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
-                <TextView
+                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="@string/tipo"/>
+                    android:text="@string/tipo"
+                    android:textSize="20dp"/>
 
-                <TextView
+                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="@string/periodo"/>
+                    android:text="@string/local"
+                    android:textSize="20dp"/>
 
-                <TextView
+                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="@string/local"/>
+                    android:text="@string/periodo"
+                    android:textSize="20dp"/>
+
             </LinearLayout>
 
         </GridLayout>
@@ -73,13 +77,14 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/pesquise_data"
-            android:textSize="20dp"/>
+            android:textSize="25dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="Data"
+            android:text="28/06/2017"
             android:textSize="20dp"/>
 
         <LinearLayout
@@ -91,7 +96,7 @@
                 android:id="@+id/botao_cancelar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/botao_cancelar"/>
+                android:text="@string/botao_limpar"/>
 
             <Button
                 android:id="@+id/botao_ok"
@@ -102,18 +107,18 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/tipo_de_ocorrencia"
-            android:textSize="18dp"/>
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="10dp"-->
+    <!--android:text="@string/tipo_de_ocorrencia"-->
+    <!--android:textSize="18dp"/>-->
 
-    </LinearLayout>
+    <!--</LinearLayout>-->
 
 </LinearLayout>

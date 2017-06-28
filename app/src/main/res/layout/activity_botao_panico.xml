@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,7 +14,8 @@
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:text="@string/safe_campus"
-        android:textSize="35dp"/>
+        android:textSize="35dp"
+        android:textStyle="bold|italic"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,33 +28,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="40dp"
-            android:text="@string/ativar_botao_panico"
-            android:textSize="20dp"/>
+            android:text="@string/ativar_panico"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"/>
 
-        <LinearLayout
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="10dp">
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/botao_off"/>
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/botao_on"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </LinearLayout>
+            android:cropToPadding="false"
+            android:padding="50dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/button_red"/>
     </LinearLayout>
 </LinearLayout>

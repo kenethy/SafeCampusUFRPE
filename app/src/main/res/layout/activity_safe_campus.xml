@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:text="@string/safe_campus"
-        android:textSize="35dp"/>
+        android:textSize="35dp"
+        android:textStyle="bold|italic"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,32 +27,29 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:text="@string/registro_de_ocorrencias"
+            android:textStyle="bold|italic"
             android:textSize="25dp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:gravity="center"
             android:padding="30dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/para_mim"
-                android:textSize="20dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/para_outro"
-                android:textSize="20dp"/>
-
             <Button
-                android:id="@+id/botao_avancar"
-                android:layout_width="wrap_content"
+                android:id="@+id/botao_para_mim"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:drawablePadding="4dp"
-                android:text="@string/botao_avancar"/>
+                android:text="@string/para_mim"/>
+            <Button
+                android:id="@+id/botao_para_outro"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:text="@string/para_outro"/>
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
